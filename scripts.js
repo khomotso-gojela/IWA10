@@ -108,5 +108,6 @@ const lastMonth = (maxDate.getMonth()+1).toString().padStart(2,"0")
 console.log(`${firstDay}/${firstMonth}/${currentYear}`)
 console.log(`${lastDay}/${lastMonth}/${currentYear}`)
 
-// const randomHoliday = holidays[Math.random]
-// console.log(randomHoliday.date)
+console.log('')
+const randomHoliday = holidays[parseInt(Math.random()*10)]
+console.log(randomHoliday.date)
